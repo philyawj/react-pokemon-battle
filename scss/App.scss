@@ -1,0 +1,170 @@
+body {
+  font-family: "Share Tech Mono", monospace;
+}
+
+body,
+html,
+#root {
+  height: 100% !important;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 32px;
+}
+
+h2,
+h5 {
+  margin: 0;
+  cursor: default;
+}
+
+p {
+  cursor: default;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+}
+
+.hide {
+  opacity: 0;
+}
+
+#enemy-container .oval {
+  top: 80px;
+  left: -13px;
+}
+
+#hero-container .oval {
+  top: 72px;
+  left: -10px;
+}
+
+#hero-container .avatar-box {
+  left: 7px;
+}
+
+#battle-container {
+  max-width: 500px;
+  min-width: 280px;
+  height: 400px;
+  outline: 5px double black;
+  background-image: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#enemy-container {
+  position: relative;
+  top: 15px;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+}
+#enemy-info-box {
+  background-color: white;
+  width: 55%;
+  height: 85px;
+  border: 5px solid #2f4f4f;
+  padding: 5px;
+  border-radius: 14px 7px 14px 7px;
+  letter-spacing: -2px;
+}
+#hero-info-box {
+  background-color: white;
+  width: 55%;
+  height: 100px;
+  border: 5px solid #2f4f4f;
+  padding: 5px;
+  border-radius: 14px 7px 14px 7px;
+  letter-spacing: -2px;
+}
+.avatar-box {
+  position: relative;
+  z-index: 0;
+}
+.oval {
+  width: 120px;
+  height: 60px;
+  background: #ccbaa1;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+}
+.both-progress {
+  position: relative;
+  width: 100%;
+}
+#hero-container {
+  justify-content: space-between;
+  position: relative;
+  top: 90px;
+  display: flex;
+  height: 100px;
+}
+#hero-name,
+#enemy-name {
+  letter-spacing: -4px;
+}
+#text-box {
+  background-color: rgb(75, 79, 83);
+  position: relative;
+  top: 100px;
+  height: 100px;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+  padding: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#text-box-content {
+  background-color: rgb(83, 129, 182);
+  height: 80px;
+  border-radius: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.attack-container {
+  width: 50%;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.move-pointer {
+  cursor: pointer;
+  padding: 2px 5px;
+  font-size: 18px;
+  color: white;
+}
+
+.battle-text-content {
+  padding: 13px 13px 0px 13px;
+  font-size: 18px;
+  color: white;
+  height: 80px;
+}
+
+.progress-bar {
+  border-radius: 18px;
+}
+
+#play-again-text {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 769px) {
+  .move-pointer:hover,
+  #play-again-text:hover {
+    color: rgb(201, 222, 248);
+  }
+}
