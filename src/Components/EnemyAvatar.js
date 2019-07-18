@@ -15,7 +15,7 @@ export default class EnemyAvatar extends PureComponent {
     }
     return (
       <div className={anim}>
-        <img className="avatar mr-3 mt-4" src="/img/enemy.png" alt="" />
+        <img className="avatar mr-3 mt-4" src="./img/enemy.png" alt="" />
       </div>
     );
   }
