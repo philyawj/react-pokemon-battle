@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-pokemon-battle/static/css/main.b82fb34a.chunk.css",
+    "main.js": "/react-pokemon-battle/static/js/main.12153588.chunk.js",
+    "main.js.map": "/react-pokemon-battle/static/js/main.12153588.chunk.js.map",
+    "runtime~main.js": "/react-pokemon-battle/static/js/runtime~main.3fe7ad69.js",
+    "runtime~main.js.map": "/react-pokemon-battle/static/js/runtime~main.3fe7ad69.js.map",
+    "static/js/2.2a94edb8.chunk.js": "/react-pokemon-battle/static/js/2.2a94edb8.chunk.js",
+    "static/js/2.2a94edb8.chunk.js.map": "/react-pokemon-battle/static/js/2.2a94edb8.chunk.js.map",
+    "index.html": "/react-pokemon-battle/index.html",
+    "precache-manifest.85ad18a61b462ac2b4ed2fc5522bf1b9.js": "/react-pokemon-battle/precache-manifest.85ad18a61b462ac2b4ed2fc5522bf1b9.js",
+    "service-worker.js": "/react-pokemon-battle/service-worker.js",
+    "static/css/main.b82fb34a.chunk.css.map": "/react-pokemon-battle/static/css/main.b82fb34a.chunk.css.map"
+  }
+}
